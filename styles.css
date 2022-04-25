@@ -1,6 +1,7 @@
 /* css da home */
 body{
     margin: 0%;
+    background-color: rgb(150, 166, 179);
 }
 
 *,*::after,*::before{
@@ -57,7 +58,8 @@ section div .caixa{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    width: 460px;
+    width: 1200px; 
+    height:800px; 
     padding: 40px;
 }
 
@@ -147,14 +149,26 @@ card-header::after{
 .galery .fotos {
     width: 500%;
     animation-name: animacao;
-    animation-duration: 10s;
+    animation-duration: 9s;
     animation-iteration-count: infinite;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 
 }
 .galery .fotos img {
-    width: 19.9%;
-    height: 900px;
+  
+    width: 900px;
+    height:600px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 
+}
+/*cenraliza a caixa que fica rodando as inamegns */
+.caixa .galery{
+    margin-top: 50px;
+    margin-left: 70px;
 }
 
 
@@ -184,29 +198,33 @@ card-header::after{
     margin-top: 5%;
  }
 
-#Info1 {
-    
-    width: 300px;
-    height: 300px;  
+ /*as informações do home*/
+#Info1 { 
+    width: 320px;
+    width: 320px;
     display: inline-block;
-    margin: 5%;
+    margin: 2%;
+    margin-left: 30px; /*aqui da para centralizar as informaçoes */
 }
 #Info2 {
-  
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    width:320px;
     display: inline-block;
-    margin: 5%;
+    margin: 2%;
+    margin-left: 30px; /*aqui da para centralizar as informaçoes */
 }
 #Info3 {
-  
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    width: 320px;
     display: inline-block;
-    margin: 5%;
+    margin: 2%;
+    margin-left: 30px; /*aqui da para centralizar as informaçoes */
 }
 
-.NavAlun{
-    background-color: rgb(233, 157, 44);
+/*imagem de baixo do home*/
+img{  
+    width: 1100px;
+    height:600px; 
 }
+
 
