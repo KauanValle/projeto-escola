@@ -172,6 +172,7 @@ card-header::after{
 }
 
 
+
 @keyframes animacao {
     0% { margin-left: 0; }
     20% { margin-left: 0; }
