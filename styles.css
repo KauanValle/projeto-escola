@@ -228,4 +228,23 @@ img{
     height:600px; 
 }
 
+/*parte das div de aulas */
+.Aulas{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 
+}
+.aula{
+    display: inline-block;
+    margin: 2%;
+    background-color: rgb(206, 196, 209);
+    width: 150px;
+    height:150px; 
+
+}
+h1{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
