@@ -246,7 +246,6 @@ card-header::after{
     
 }
 
-
 /* Calendario */
 
 .calendario {
@@ -265,6 +264,9 @@ card-header::after{
     width: 100%;
     text-align: center;
     padding: 20px;
+
+header {
+    text-align: center;
     border-bottom: 2px solid whitesmoke;
     
 }
@@ -301,7 +303,20 @@ main {
     gap: 3px;
     margin: 5px;
     margin-right: 22px;
+}
 
+.days li {
+    background-color: rgb(194, 117, 194);
+    border: .5px solid gray;
+    text-align: center;
+    padding: 5px;
+}
+
+.date li {
+    background-color:rgb(194, 117, 194);
+    border: .5px solid gray;
+    text-align: center;
+    padding: 5px;
 }
 
 .days li {
