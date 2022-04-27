@@ -246,8 +246,72 @@ card-header::after{
     
 }
 
-
 /* Calendario */
+
+.calendario {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: purple;
+}
+
+header {
+
+    text-align: center;
+    border-bottom: 2px solid whitesmoke;
+    
+}
+
+main {
+    margin-top: 150px;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.month {
+    background-color: whitesmoke;
+    border: 1px solid purple;
+}
+
+.month h1 {
+    background-color: #ca82f7;
+    ;
+    color: rgb(87, 9, 87);
+    text-align: center;
+    padding: 5px;
+
+}
+.days,
+.date {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    list-style: none;
+    gap: 3px;
+    margin: 5px;
+    margin-right: 22px;
+
+}
+
+.days li {
+    background-color: rgb(194, 117, 194);
+    border: .5px solid gray;
+    text-align: center;
+    padding: 5px;
+}
+
+.date li {
+    background-color:rgb(194, 117, 194);
+    border: .5px solid gray;
+    text-align: center;
+    padding: 5px;
+}
 
 
 
