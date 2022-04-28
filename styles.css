@@ -409,3 +409,187 @@ main {
     color: white;
     font-weight: bold;
 }
+
+
+/*Financeiro*/
+
+
+.financeiro nav{
+    overflow: hidden;
+    width: 100vw;
+    background-color: rgb(126, 126, 126);
+    margin-top: 100px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+
+}
+
+.financeiro a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.financeiro a:hover{
+    background-color: rgb(36, 36, 75);
+    color: white;
+}
+
+.container{
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.caixa{
+    position: absolute;
+    top: 100px;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    padding: 40px 20px 40px 60px;
+    margin-left: -520px;
+
+}
+
+
+
+.dados{
+    width: 234px;
+    float: left;
+    color: #fff;
+    
+}
+
+.dados2{
+    width: 234px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 100px;
+    color: #fff;
+}
+
+
+.boletos{
+    width: 234px;
+    float: left;
+    color: #fff;
+
+}
+
+.boletos2{
+    width: 234px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 52px;
+    color: #fff;
+
+}
+
+
+.boletos p{
+    margin-top: 18px;
+
+}
+
+
+.demonstrativo{
+    padding: 50px;
+    text-align: center;
+    
+}
+
+
+.demonstrativo h3{
+    margin-bottom: 40px;
+    color: #fff;
+
+}
+
+
+table td {
+  border: solid 1px #000;
+}
+
+table{
+    width: 234px;
+    color: #000;
+    font-size: 22px;
+    border-collapse: separate; 
+    border-spacing: 30px;
+    margin-left: 140px;
+    
+}
+
+.success{
+ 
+    color: green;
+}
+
+.danger{
+ 
+    color: red;
+}
+
+
+.oferta{
+    width: 234px;
+    float: left;
+
+}
+
+
+.oferta2{
+    width: 234px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 130px;
+
+}
+
+
+.oferta p{
+    margin-top: 18px;
+
+}
+
+
+.oferta h3{
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+
+.acordo{
+    width: 234px;
+    float: left;
+    
+
+}
+
+
+.acordo2{
+    width: 234px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 130px;
+    
+
+}
+
+
+.acordo p{
+    margin-top: 18px;
+
+}
+
+.acordo h3{
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+
+.confissao h3{
+    color: #fff;
+}
