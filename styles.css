@@ -490,9 +490,25 @@ main {
 
 .boletos p{
     margin-top: 18px;
+    color: #000;
 
 }
 
+
+.boletos2 p{
+    margin-top: 18px;
+    color: #000;
+
+}
+
+.boletos h6{
+    margin-top: 18px;
+}
+
+
+.boletos2 h6{
+    margin-top: 18px;
+}
 
 .demonstrativo{
     padding: 50px;
